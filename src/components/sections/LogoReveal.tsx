@@ -14,11 +14,15 @@ export function LogoReveal() {
   const reduce = useReducedMotion();
   const ref = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(false);
+  const [started, setStarted] = useState(false); // false: show the finished logo, not the video's blank first frame
   const manual = useRef(false); // user paused: stop auto-resuming
 
   useEffect(() => {
     const v = ref.current;
-    if (v) setPlaying(!v.paused);
+    if (v) {
+      setPlaying(!v.paused);
+      if (v.currentTime > 0.05) setStarted(true);
+    }
     if (!v || reduce) return;
     const io = new IntersectionObserver(
       ([e]) => {
@@ -67,9 +71,12 @@ export function LogoReveal() {
               playsInline
               preload="metadata"
               aria-label={t(c.alt)}
+              onTimeUpdate={(e) => { if (!started && e.currentTarget.currentTime > 0.05) setStarted(true); }}
               onPlay={() => setPlaying(true)}
               onPause={() => setPlaying(false)}
             />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/video/aqarati-logo-reveal-poster.jpg" alt="" aria-hidden="true" className={`pointer-events-none absolute inset-0 h-full w-full object-cover transition-opacity duration-[360ms] ${started ? 'opacity-0' : 'opacity-100'}`} />
           </div>
         </Reveal>
       </div>
