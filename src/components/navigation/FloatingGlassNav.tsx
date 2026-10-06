@@ -45,11 +45,13 @@ export function FloatingGlassNav() {
 
   const [expanded, setExpanded] = useState(true);
   const [engaged, setEngaged] = useState(false); // hover / focus inside
+  const [settings, setSettings] = useState(false); // phone: language + theme popover
   const scrollerRef = useRef<HTMLDivElement>(null);
   const itemRefs = useRef<Record<string, HTMLAnchorElement | null>>({});
   const drag = useRef({ active: false, moved: 0, startX: 0, startLeft: 0, lastX: 0, vx: 0, raf: 0 });
   const lastY = useRef(0);
   const lastSection = useRef('');
+  const centred = useRef(false);
 
   const activeItem = NAV.find((n) => n.href === '/' ? pathname === '/' : pathname === n.href || pathname.startsWith(`${n.href}/`)) ?? NAV[0];
   const activeKey = activeItem.key;
@@ -79,8 +81,18 @@ export function FloatingGlassNav() {
   /* a new page opens with the dock expanded */
   useEffect(() => {
     setExpanded(true);
+    setSettings(false);
     lastY.current = 0;
   }, [pathname]);
+
+  useEffect(() => {
+    if (!settings) return;
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setSettings(false); };
+    const onDown = (e: PointerEvent) => { if (!(e.target as HTMLElement).closest('[data-nav-settings]')) setSettings(false); };
+    window.addEventListener('keydown', onKey);
+    window.addEventListener('pointerdown', onDown);
+    return () => { window.removeEventListener('keydown', onKey); window.removeEventListener('pointerdown', onDown); };
+  }, [settings]);
 
   /* section_view hook */
   useEffect(() => {
@@ -96,7 +108,8 @@ export function FloatingGlassNav() {
     const el = itemRefs.current[activeKey];
     if (!sc || !el || drag.current.active || !expanded) return;
     const left = el.offsetLeft - (sc.clientWidth - el.offsetWidth) / 2;
-    sc.scrollTo({ left: Math.max(0, left), behavior: reduce ? 'auto' : 'smooth' });
+    sc.scrollTo({ left: Math.max(0, left), behavior: reduce || !centred.current ? 'auto' : 'smooth' });
+    centred.current = true;
   }, [activeKey, expanded, reduce]);
 
   /* mouse drag with momentum */
@@ -169,7 +182,7 @@ export function FloatingGlassNav() {
         style={{ width: show ? 'min(100%, 880px)' : undefined }}
       >
         {/* symbol: back to the top */}
-        <motion.div layout="position" className="shrink-0">
+        <motion.div layout="position" className={`shrink-0 ${show ? 'hidden sm:block' : ''}`}>
         <Link
           href="/"
           aria-label={t({ en: 'AQARATI, home', ar: 'عقاراتي، الرئيسية' })}
@@ -208,7 +221,7 @@ export function FloatingGlassNav() {
                       onClick={guard}
                       aria-current={active ? 'page' : undefined}
                       draggable={false}
-                      className={`relative flex min-h-11 shrink-0 select-none items-center whitespace-nowrap rounded-2xl px-3.5 text-[13px] transition-[color,transform] duration-[120ms] ease-aq active:scale-95 sm:px-4 ${active ? 'font-semibold text-ink' : 'font-medium text-ink-2 hover:text-ink'}`}
+                      className={`relative flex min-h-11 shrink-0 select-none items-center whitespace-nowrap rounded-2xl px-3 text-[13px] transition-[color,transform] duration-[120ms] ease-aq active:scale-95 sm:px-4 ${active ? 'font-semibold text-ink' : 'font-medium text-ink-2 hover:text-ink'}`}
                     >
                       {active && (
                         <motion.span
@@ -249,7 +262,7 @@ export function FloatingGlassNav() {
         </AnimatePresence>
 
         {show && (
-          <motion.div layout="position" className="flex shrink-0 items-center gap-0.5 ps-1 border-s border-line-soft">
+          <motion.div layout="position" className="hidden shrink-0 items-center gap-0.5 border-s border-line-soft ps-1 sm:flex">
             <button
               type="button"
               onClick={() => setLang(lang === 'en' ? 'ar' : 'en')}
@@ -269,11 +282,52 @@ export function FloatingGlassNav() {
           </motion.div>
         )}
 
+        {show && (
+          <motion.div layout="position" data-nav-settings className="shrink-0 border-s border-line-soft ps-1 sm:hidden">
+            <button
+              type="button"
+              onClick={() => setSettings((v) => !v)}
+              aria-expanded={settings}
+              aria-haspopup="true"
+              aria-label={t({ en: 'Language and theme', ar: 'اللغة والمظهر' })}
+              className={`grid h-11 w-11 place-items-center rounded-2xl transition-[color,background-color,transform] duration-[120ms] ease-aq active:scale-95 ${settings ? 'bg-ink/[0.08] text-ink' : 'text-ink-2'}`}
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10" /><circle cx="16" cy="7" r="2" /><circle cx="8" cy="17" r="2" /></svg>
+            </button>
+          </motion.div>
+        )}
+
         {/* page progress, integrated into the dock */}
         <div className="pointer-events-none absolute inset-x-5 bottom-0 h-[2px] overflow-hidden rounded-full" aria-hidden="true">
           <div className="h-full origin-left bg-brand/70 rtl:origin-right" style={{ transform: `scaleX(${spy.progress})`, transition: 'transform 120ms linear' }} />
         </div>
       </motion.div>
+      <AnimatePresence>
+        {settings && show && (
+          <motion.div
+            data-nav-settings
+            data-band={dark ? 'dark' : undefined}
+            initial={{ opacity: 0, y: reduce ? 0 : 8, scale: reduce ? 1 : 0.96 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.18, ease: [0.2, 0, 0, 1] }}
+            role="group"
+            aria-label={t({ en: 'Language and theme', ar: 'اللغة والمظهر' })}
+            className="glass pointer-events-auto absolute bottom-[calc(100%+8px)] end-3 flex items-center gap-1 rounded-2xl p-1.5 text-ink sm:hidden"
+          >
+            <button type="button" onClick={() => setLang(lang === 'en' ? 'ar' : 'en')} aria-label={t(lang === 'en' ? COPY.ui.toArabic : COPY.ui.toEnglish)} className="flex min-h-11 min-w-[88px] items-center justify-center gap-2 rounded-xl px-3 text-[14px] font-semibold active:scale-95">
+              <span className="text-ink-3 text-[12px]">{lang === 'en' ? 'EN' : 'AR'}</span>
+              <span aria-hidden="true">→</span>
+              {lang === 'en' ? 'عربي' : 'English'}
+            </button>
+            <span className="h-6 w-px bg-line-soft" aria-hidden="true" />
+            <button type="button" onClick={toggle} aria-label={t(theme === 'dark' ? COPY.ui.toLight : COPY.ui.toDark)} className="flex min-h-11 items-center justify-center gap-2 rounded-xl px-3 text-[14px] font-semibold active:scale-95">
+              {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
+              {theme === 'dark' ? t(COPY.ui.light) : t(COPY.ui.dark)}
+            </button>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </nav>
   );
 }

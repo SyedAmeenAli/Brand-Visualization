@@ -50,7 +50,7 @@ export function ChapterHeader({ num, title, lead, eyebrow, chapter }: { num: str
         <span className="h-px w-10 bg-line" aria-hidden="true" />
         <span className="t-eyebrow text-ink-3">{t(eyebrow ?? title)}</span>
       </div>
-      <div className="mt-7 grid grid-cols-12 items-end gap-x-8 gap-y-6">
+      <div className="mt-7 grid grid-cols-12 items-end gap-x-0 gap-y-6 md:gap-x-8">
         <h1 className="t-display col-span-12 text-balance lg:col-span-7">
           <MaskLine>{t(title)}</MaskLine>
         </h1>

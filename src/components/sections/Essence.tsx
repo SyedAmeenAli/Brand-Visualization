@@ -18,7 +18,7 @@ export function Essence() {
           <h2 className="t-eyebrow text-ink-3">{t(c.title)}</h2>
         </div>
 
-        <div className="mt-10 grid grid-cols-12 gap-x-8 gap-y-14 md:gap-y-20">
+        <div className="mt-10 grid grid-cols-12 gap-x-0 gap-y-14 md:gap-x-8 md:gap-y-20">
           {/* the three words */}
           <div className="col-span-12 md:col-span-7">
             <p className="sr-only">{c.words.map((w) => t(w)).join(', ')}</p>

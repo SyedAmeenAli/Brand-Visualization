@@ -275,6 +275,16 @@ export const COPY = {
     closing: l('Quietly distinctive. Consistently trusted.', 'متميزة بهدوء. موثوقة باستمرار.'),
   },
 
+  reveal: {
+    title: l('Logo in motion', 'الشعار في حركة'),
+    line: l('A house, a wave, a name.', 'بيت وموجة واسم.'),
+    body: l('The mark builds itself the way it is constructed: the roofline, the wave, the Arabic and Latin wordmarks, then the line.', 'يتشكل الشعار كما بُني: خط السقف ثم الموجة ثم الكلمتان العربية واللاتينية ثم العبارة.'),
+    play: l('Play', 'تشغيل'),
+    pause: l('Pause', 'إيقاف'),
+    alt: l('AQARATI logo reveal animation', 'عرض متحرك لظهور شعار عقاراتي'),
+    note: l('A motion study. The approved vector master on the Identity page stays the source of truth.', 'دراسة حركة. يبقى الملف المتجهي المعتمد في صفحة الهوية هو المرجع.'),
+  },
+
   index: {
     title: l('The chapters', 'الفصول'),
     lead: l('Seven chapters, one identity. Choose where to begin.', 'سبعة فصول وهوية واحدة. اختر من أين تبدأ.'),

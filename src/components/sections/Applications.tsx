@@ -152,7 +152,7 @@ export function Applications() {
 
         <SubHeader num="10.1" title={c.iconTitle} lead={c.iconLead} />
         <div className="mt-8 flex flex-wrap items-center gap-6">
-          <div className="flex items-end gap-4" aria-label={t(c.iconSizes)}>
+          <div className="flex max-w-full flex-wrap items-end gap-x-3 gap-y-3 sm:gap-4" aria-label={t(c.iconSizes)}>
             {[96, 64, 40, 24, 16].map((px) => (
               <span key={px} className="grid shrink-0 place-items-center bg-bg-2 shadow-[var(--elev-1)]" style={{ width: px, height: px, borderRadius: Math.round(px * 0.22) }}>
                 <BrandSymbol className="h-[58%] w-auto" decorative tone="mocha" />
