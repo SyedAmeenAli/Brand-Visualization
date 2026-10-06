@@ -14,11 +14,11 @@ export function LogoReveal() {
   const reduce = useReducedMotion();
   const ref = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(false);
-  const [ready, setReady] = useState(false);
   const manual = useRef(false); // user paused: stop auto-resuming
 
   useEffect(() => {
     const v = ref.current;
+    if (v) setPlaying(!v.paused);
     if (!v || reduce) return;
     const io = new IntersectionObserver(
       ([e]) => {
@@ -58,21 +58,18 @@ export function LogoReveal() {
           <div className="relative mx-auto w-full max-w-[min(100%,380px)] overflow-hidden rounded-2xl border border-line-soft bg-bg-2 shadow-[var(--elev-2)] md:max-w-[420px] md:rounded-[20px]" style={{ aspectRatio: '720 / 1054' }}>
             <video
               ref={ref}
-              className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-[360ms] ${ready ? 'opacity-100' : 'opacity-0'}`}
+              className="absolute inset-0 h-full w-full object-cover"
               src="/video/aqarati-logo-reveal.mp4"
               poster="/video/aqarati-logo-reveal-poster.jpg"
+              autoPlay={!reduce}
               muted
               loop
               playsInline
               preload="metadata"
               aria-label={t(c.alt)}
-              onLoadedData={() => setReady(true)}
               onPlay={() => setPlaying(true)}
               onPause={() => setPlaying(false)}
             />
-            {/* poster underneath so nothing is ever empty while the video loads */}
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/video/aqarati-logo-reveal-poster.jpg" alt="" aria-hidden="true" className="absolute inset-0 -z-0 h-full w-full object-cover" style={{ opacity: ready ? 0 : 1 }} />
           </div>
         </Reveal>
       </div>
