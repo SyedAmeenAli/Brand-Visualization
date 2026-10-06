@@ -33,10 +33,11 @@ function Specimen({ id, big }: { id: VariantId; big?: boolean }) {
       </div>
     );
   }
-  const logoClass = big ? 'h-[min(52vh,460px)] w-auto' : 'h-[88px] w-auto';
-  if (id === 'symbol') return <BrandSymbol className={big ? 'h-[min(40vh,320px)] w-auto' : 'h-[64px] w-auto'} decorative />;
-  if (id === 'mono') return <div className="text-[#2D2823]"><BrandLogo tone="mono" className={logoClass} decorative /></div>;
-  if (id === 'reverse') return <BrandLogo tone="reverse" className={logoClass} decorative />;
+  const logoClass = big ? 'h-auto w-[min(100%,400px)]' : 'h-[88px] w-auto';
+  if (id === 'symbol') return <BrandSymbol className={big ? 'h-auto w-[min(60%,260px)]' : 'h-[64px] w-auto'} decorative />;
+  if (id === 'mono') return <div className="text-[#2D2823]" style={{ ['--logo-k' as string]: '255 255 255' }}><BrandLogo tone="mono" className={logoClass} decorative /></div>;
+  if (id === 'reverse') return <div style={{ ['--logo-k' as string]: '45 40 35' }}><BrandLogo tone="reverse" className={logoClass} decorative /></div>;
+  if (id === 'primary') return <div style={{ ['--logo-k' as string]: 'var(--bg-2)' }}><BrandLogo className={logoClass} decorative /></div>;
   return <BrandLogo className={logoClass} decorative />;
 }
 
@@ -53,7 +54,7 @@ export function LogoVariants() {
     <div className="grid gap-6 lg:grid-cols-12">
       {/* selected specimen */}
       <div className="lg:col-span-7">
-        <div className={`relative grid min-h-[360px] place-items-center overflow-hidden rounded-xl border border-line-soft p-8 transition-colors duration-[360ms] ease-aq md:min-h-[560px] ${surfaceClass(cur.surface)}`} data-cursor="logo">
+        <div className={`relative grid min-h-[360px] place-items-center overflow-hidden rounded-xl border border-line-soft p-5 transition-colors sm:p-8 duration-[360ms] ease-aq md:min-h-[560px] ${surfaceClass(cur.surface)}`} data-cursor="logo">
           <AnimatePresence mode="wait" initial={false}>
             <motion.div key={sel} initial={{ opacity: 0, scale: 0.97 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0.99 }} transition={{ duration: 0.28, ease: [0.2, 0, 0, 1] }} className="flex w-full items-center justify-center">
               <Specimen id={sel} big />
