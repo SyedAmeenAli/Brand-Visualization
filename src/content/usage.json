@@ -1,0 +1,474 @@
+[
+ {
+  "file": "logo-01.webp",
+  "topic": "logo",
+  "n": 1,
+  "title": "Proportion",
+  "w": 2070,
+  "h": 626
+ },
+ {
+  "file": "logo-02.webp",
+  "topic": "logo",
+  "n": 2,
+  "title": "Proportion",
+  "w": 2070,
+  "h": 626
+ },
+ {
+  "file": "logo-03.webp",
+  "topic": "logo",
+  "n": 3,
+  "title": "Orientation",
+  "w": 2070,
+  "h": 626
+ },
+ {
+  "file": "logo-04.webp",
+  "topic": "logo",
+  "n": 4,
+  "title": "Geometry",
+  "w": 2070,
+  "h": 626
+ },
+ {
+  "file": "logo-05.webp",
+  "topic": "logo",
+  "n": 5,
+  "title": "Colour  arbitrary recolou r",
+  "w": 2070,
+  "h": 626
+ },
+ {
+  "file": "logo-06.webp",
+  "topic": "logo",
+  "n": 6,
+  "title": "Arabic lettering",
+  "w": 2070,
+  "h": 625
+ },
+ {
+  "file": "logo-07.webp",
+  "topic": "logo",
+  "n": 7,
+  "title": "Wordmark",
+  "w": 2070,
+  "h": 657
+ },
+ {
+  "file": "logo-08.webp",
+  "topic": "logo",
+  "n": 8,
+  "title": "Effects  gl ow",
+  "w": 2070,
+  "h": 625
+ },
+ {
+  "file": "logo-09.webp",
+  "topic": "logo",
+  "n": 9,
+  "title": "Effects  bevel",
+  "w": 2070,
+  "h": 625
+ },
+ {
+  "file": "logo-10.webp",
+  "topic": "logo",
+  "n": 10,
+  "title": "Effects  heavy shadow",
+  "w": 2070,
+  "h": 625
+ },
+ {
+  "file": "logo-11.webp",
+  "topic": "logo",
+  "n": 11,
+  "title": "Clear space",
+  "w": 2070,
+  "h": 625
+ },
+ {
+  "file": "logo-12.webp",
+  "topic": "logo",
+  "n": 12,
+  "title": "Background  readability",
+  "w": 2070,
+  "h": 716
+ },
+ {
+  "file": "colour-01.webp",
+  "topic": "colour",
+  "n": 1,
+  "title": "Warm neutrals, disciplined accent",
+  "w": 2070,
+  "h": 1016
+ },
+ {
+  "file": "colour-02.webp",
+  "topic": "colour",
+  "n": 2,
+  "title": "Accent is not the whole interface",
+  "w": 2070,
+  "h": 1016
+ },
+ {
+  "file": "colour-03.webp",
+  "topic": "colour",
+  "n": 3,
+  "title": "Status carries meaning",
+  "w": 2070,
+  "h": 1016
+ },
+ {
+  "file": "colour-04.webp",
+  "topic": "colour",
+  "n": 4,
+  "title": "Dark has a semantic palette",
+  "w": 2070,
+  "h": 1220
+ },
+ {
+  "file": "typography-01.webp",
+  "topic": "typography",
+  "n": 1,
+  "title": "Two roles, one hierarchy",
+  "w": 2070,
+  "h": 1062
+ },
+ {
+  "file": "typography-02.webp",
+  "topic": "typography",
+  "n": 2,
+  "title": "Weight has a purpose",
+  "w": 2070,
+  "h": 1062
+ },
+ {
+  "file": "typography-03.webp",
+  "topic": "typography",
+  "n": 3,
+  "title": "Readability and scale",
+  "w": 2070,
+  "h": 1153
+ },
+ {
+  "file": "spacing-01.webp",
+  "topic": "spacing",
+  "n": 1,
+  "title": "Property card",
+  "w": 2070,
+  "h": 1016
+ },
+ {
+  "file": "spacing-02.webp",
+  "topic": "spacing",
+  "n": 2,
+  "title": "Form grouping",
+  "w": 2070,
+  "h": 1567
+ },
+ {
+  "file": "spacing-03.webp",
+  "topic": "spacing",
+  "n": 3,
+  "title": "Search and section alignment",
+  "w": 2070,
+  "h": 556
+ },
+ {
+  "file": "spacing-04.webp",
+  "topic": "spacing",
+  "n": 4,
+  "title": "Navigation rhythm",
+  "w": 2070,
+  "h": 714
+ },
+ {
+  "file": "photography-01.webp",
+  "topic": "photography",
+  "n": 1,
+  "title": "Architecture and material",
+  "w": 2070,
+  "h": 752
+ },
+ {
+  "file": "photography-02.webp",
+  "topic": "photography",
+  "n": 2,
+  "title": "Natural daylight",
+  "w": 2070,
+  "h": 752
+ },
+ {
+  "file": "photography-03.webp",
+  "topic": "photography",
+  "n": 3,
+  "title": "Interior colour",
+  "w": 2070,
+  "h": 752
+ },
+ {
+  "file": "photography-04.webp",
+  "topic": "photography",
+  "n": 4,
+  "title": "Oman context and crop",
+  "w": 2070,
+  "h": 751
+ },
+ {
+  "file": "photography-05.webp",
+  "topic": "photography",
+  "n": 5,
+  "title": "Resolution at publication size",
+  "w": 2070,
+  "h": 752
+ },
+ {
+  "file": "photography-06.webp",
+  "topic": "photography",
+  "n": 6,
+  "title": "Editorial, not noisy promotion",
+  "w": 2070,
+  "h": 752
+ },
+ {
+  "file": "photography-07.webp",
+  "topic": "photography",
+  "n": 7,
+  "title": "Human scale",
+  "w": 2070,
+  "h": 752
+ },
+ {
+  "file": "photography-08.webp",
+  "topic": "photography",
+  "n": 8,
+  "title": "Natural sky, not invented spectacle",
+  "w": 2070,
+  "h": 1344
+ },
+ {
+  "file": "iconography-01.webp",
+  "topic": "iconography",
+  "n": 1,
+  "title": "Stroke and optical weight",
+  "w": 2070,
+  "h": 464
+ },
+ {
+  "file": "iconography-02.webp",
+  "topic": "iconography",
+  "n": 2,
+  "title": "Size and baseline",
+  "w": 2070,
+  "h": 464
+ },
+ {
+  "file": "iconography-03.webp",
+  "topic": "iconography",
+  "n": 3,
+  "title": "Family coherence",
+  "w": 2070,
+  "h": 675
+ },
+ {
+  "file": "illustration-01.webp",
+  "topic": "illustration",
+  "n": 1,
+  "title": "Architectural restraint",
+  "w": 2070,
+  "h": 821
+ },
+ {
+  "file": "illustration-02.webp",
+  "topic": "illustration",
+  "n": 2,
+  "title": "Line language",
+  "w": 2070,
+  "h": 821
+ },
+ {
+  "file": "illustration-03.webp",
+  "topic": "illustration",
+  "n": 3,
+  "title": "Human scale and perspective",
+  "w": 2070,
+  "h": 912
+ },
+ {
+  "file": "ui-01.webp",
+  "topic": "ui",
+  "n": 1,
+  "title": "Light Home",
+  "w": 2070,
+  "h": 1637
+ },
+ {
+  "file": "ui-02.webp",
+  "topic": "ui",
+  "n": 2,
+  "title": "Card and action hierarchy",
+  "w": 2070,
+  "h": 1039
+ },
+ {
+  "file": "ui-03.webp",
+  "topic": "ui",
+  "n": 3,
+  "title": "Forms organise decisions",
+  "w": 2070,
+  "h": 1400
+ },
+ {
+  "file": "ui-04.webp",
+  "topic": "ui",
+  "n": 4,
+  "title": "Search stays focused",
+  "w": 2070,
+  "h": 783
+ },
+ {
+  "file": "dark-01.webp",
+  "topic": "dark",
+  "n": 1,
+  "title": "Dark Home",
+  "w": 2070,
+  "h": 1729
+ },
+ {
+  "file": "dark-02.webp",
+  "topic": "dark",
+  "n": 2,
+  "title": "Neutral, not brown everywhere",
+  "w": 2070,
+  "h": 1028
+ },
+ {
+  "file": "dark-03.webp",
+  "topic": "dark",
+  "n": 3,
+  "title": "Focus, not neon decoration",
+  "w": 2070,
+  "h": 545
+ },
+ {
+  "file": "dark-04.webp",
+  "topic": "dark",
+  "n": 4,
+  "title": "Adapt semantics, not literal inversion",
+  "w": 2070,
+  "h": 1231
+ },
+ {
+  "file": "rules-01.webp",
+  "topic": "rules",
+  "n": 1,
+  "title": "The AQARATI master logo is the source of truth.",
+  "w": 2070,
+  "h": 464
+ },
+ {
+  "file": "rules-02.webp",
+  "topic": "rules",
+  "n": 2,
+  "title": "Never alter the logo geometry or lettering.",
+  "w": 2070,
+  "h": 464
+ },
+ {
+  "file": "rules-03.webp",
+  "topic": "rules",
+  "n": 3,
+  "title": "Always respect clear space.",
+  "w": 2070,
+  "h": 464
+ },
+ {
+  "file": "rules-04.webp",
+  "topic": "rules",
+  "n": 4,
+  "title": "Use only approved logo variants.",
+  "w": 2070,
+  "h": 464
+ },
+ {
+  "file": "rules-05.webp",
+  "topic": "rules",
+  "n": 5,
+  "title": "Use the established mocha / warm-neutral brand system.",
+  "w": 2070,
+  "h": 464
+ },
+ {
+  "file": "rules-06.webp",
+  "topic": "rules",
+  "n": 6,
+  "title": "Use the approved typography hierarchy.",
+  "w": 2070,
+  "h": 465
+ },
+ {
+  "file": "rules-07.webp",
+  "topic": "rules",
+  "n": 7,
+  "title": "Use consistent spacing.",
+  "w": 2070,
+  "h": 465
+ },
+ {
+  "file": "rules-08.webp",
+  "topic": "rules",
+  "n": 8,
+  "title": "Use authentic, architectural photography.",
+  "w": 2070,
+  "h": 465
+ },
+ {
+  "file": "rules-09.webp",
+  "topic": "rules",
+  "n": 9,
+  "title": "Use one coherent icon family.",
+  "w": 2070,
+  "h": 465
+ },
+ {
+  "file": "rules-10.webp",
+  "topic": "rules",
+  "n": 10,
+  "title": "Use one coherent illustration language.",
+  "w": 2070,
+  "h": 465
+ },
+ {
+  "file": "rules-11.webp",
+  "topic": "rules",
+  "n": 11,
+  "title": "Treat Light Mode and Dark Mode as semantic design systems.",
+  "w": 2070,
+  "h": 465
+ },
+ {
+  "file": "rules-12.webp",
+  "topic": "rules",
+  "n": 12,
+  "title": "Use motion intentionally.",
+  "w": 2070,
+  "h": 465
+ },
+ {
+  "file": "rules-13.webp",
+  "topic": "rules",
+  "n": 13,
+  "title": "Do not decorate for decorationˇs sake.",
+  "w": 2070,
+  "h": 465
+ },
+ {
+  "file": "rules-14.webp",
+  "topic": "rules",
+  "n": 14,
+  "title": "New brand elements require review before becoming official.",
+  "w": 2070,
+  "h": 1415
+ }
+]

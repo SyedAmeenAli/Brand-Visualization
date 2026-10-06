@@ -1,0 +1,252 @@
+{
+ "logo-master": {
+  "w": 2448,
+  "h": 1377,
+  "src": "01 — Master logo.pdf"
+ },
+ "logo-anatomy": {
+  "w": 2448,
+  "h": 1377,
+  "src": "03 — Lockup anatomy.pdf"
+ },
+ "logo-scale": {
+  "w": 2448,
+  "h": 1377,
+  "src": "06 — Scale preview.pdf"
+ },
+ "logo-rule": {
+  "w": 2448,
+  "h": 1377,
+  "src": "08 — Logo control rule.pdf"
+ },
+ "con-overview": {
+  "w": 2448,
+  "h": 1417,
+  "src": "01 — Construction overview.pdf"
+ },
+ "con-symbol": {
+  "w": 2448,
+  "h": 1417,
+  "src": "02 — Symbol construction.pdf"
+ },
+ "con-house": {
+  "w": 2448,
+  "h": 1417,
+  "src": "03 — House geometry.pdf"
+ },
+ "con-wave": {
+  "w": 2448,
+  "h": 1417,
+  "src": "04 — Wave geometry.pdf"
+ },
+ "con-negative": {
+  "w": 2448,
+  "h": 1417,
+  "src": "05 — Negative space.pdf"
+ },
+ "con-proportion": {
+  "w": 2448,
+  "h": 1417,
+  "src": "06 — Symbol proportion.pdf"
+ },
+ "con-alignment": {
+  "w": 2448,
+  "h": 1417,
+  "src": "07 — Lockup alignment.pdf"
+ },
+ "con-wordmark": {
+  "w": 2448,
+  "h": 1417,
+  "src": "08 — Wordmark relationship.pdf"
+ },
+ "con-grid": {
+  "w": 2448,
+  "h": 1417,
+  "src": "10 — Construction grid.pdf"
+ },
+ "cs-overview": {
+  "w": 2448,
+  "h": 1418,
+  "src": "01 — Clear space overview.pdf"
+ },
+ "cs-unit": {
+  "w": 2448,
+  "h": 1418,
+  "src": "02 — Clear space unit.pdf"
+ },
+ "cs-protected": {
+  "w": 2448,
+  "h": 1418,
+  "src": "03 — Minimum protected area.pdf"
+ },
+ "cs-lockup": {
+  "w": 2448,
+  "h": 1418,
+  "src": "04 — Primary lockup clear space.pdf"
+ },
+ "cs-symbol": {
+  "w": 2448,
+  "h": 1418,
+  "src": "05 — Symbol clear space.pdf"
+ },
+ "cs-context": {
+  "w": 2448,
+  "h": 1418,
+  "src": "06 — Clear space context test.pdf"
+ },
+ "cs-crowded": {
+  "w": 2448,
+  "h": 1418,
+  "src": "07 — Protected versus crowded.pdf"
+ },
+ "cs-incorrect": {
+  "w": 2430,
+  "h": 1515,
+  "src": "09 — Incorrect clear space.pdf"
+ },
+ "ms-overview": {
+  "w": 2430,
+  "h": 1245,
+  "src": "01 — AQARATI — MINIMUM SIZE.pdf"
+ },
+ "ms-full": {
+  "w": 2448,
+  "h": 1418,
+  "src": "02 — FULL LOCKUP — SIZE TEST.pdf"
+ },
+ "ms-legibility": {
+  "w": 2430,
+  "h": 1650,
+  "src": "03 — LEGIBILITY TEST.pdf"
+ },
+ "ms-symbol": {
+  "w": 2448,
+  "h": 1418,
+  "src": "07 — SYMBOL-ONLY — SIZE TEST.pdf"
+ },
+ "ms-zones": {
+  "w": 2430,
+  "h": 1650,
+  "src": "12 — PRACTICAL SIZE ZONES.pdf"
+ },
+ "ms-proposed": {
+  "w": 2448,
+  "h": 1418,
+  "src": "13 — PROPOSED MINIMUM SIZE.pdf"
+ },
+ "var-overview": {
+  "w": 2430,
+  "h": 1650,
+  "src": "01 — Variants overview.pdf"
+ },
+ "var-primary": {
+  "w": 2430,
+  "h": 1245,
+  "src": "02 — Primary full lockup.pdf"
+ },
+ "var-compact": {
+  "w": 2430,
+  "h": 1245,
+  "src": "03 — Compact lockup.pdf"
+ },
+ "var-symbol": {
+  "w": 2430,
+  "h": 1245,
+  "src": "04 — Symbol only.pdf"
+ },
+ "var-horizontal": {
+  "w": 2430,
+  "h": 1245,
+  "src": "05 — Horizontal lockup.pdf"
+ },
+ "var-stacked": {
+  "w": 2430,
+  "h": 1245,
+  "src": "06 — Stacked reference.pdf"
+ },
+ "var-mono": {
+  "w": 2430,
+  "h": 1245,
+  "src": "07 — Monochrome study.pdf"
+ },
+ "var-reverse": {
+  "w": 2430,
+  "h": 1245,
+  "src": "08 — Reverse contrast study.pdf"
+ },
+ "var-light": {
+  "w": 2430,
+  "h": 1245,
+  "src": "09 — Light surface reference.pdf"
+ },
+ "var-dark": {
+  "w": 2430,
+  "h": 1245,
+  "src": "10 — Dark surface study.pdf"
+ },
+ "var-compare": {
+  "w": 3240,
+  "h": 1237,
+  "src": "12 — Variant comparison.pdf"
+ },
+ "icons-nav": {
+  "w": 2340,
+  "h": 1525,
+  "src": "S12-F05 _ Core Navigation Icons.pdf"
+ },
+ "icons-property": {
+  "w": 2340,
+  "h": 1681,
+  "src": "S12-F06 _ Property Icons.pdf"
+ },
+ "icons-verify": {
+  "w": 2340,
+  "h": 1746,
+  "src": "S12-F07 _ Verification Icons.pdf"
+ },
+ "icons-sizes": {
+  "w": 2340,
+  "h": 1447,
+  "src": "S12-F04 _ Sizes.pdf"
+ },
+ "illus-property": {
+  "w": 2340,
+  "h": 2413,
+  "src": "S13-F04 _ Property Illustration.pdf"
+ },
+ "illus-empty": {
+  "w": 2340,
+  "h": 1906,
+  "src": "S13-F05 _ Empty States.pdf"
+ },
+ "illus-verify": {
+  "w": 2340,
+  "h": 1748,
+  "src": "S13-F07 _ Verification.pdf"
+ },
+ "illus-service": {
+  "w": 2340,
+  "h": 2413,
+  "src": "S13-F08 _ Service Categories.pdf"
+ },
+ "appicon-final": {
+  "w": 2340,
+  "h": 1428,
+  "src": "S20-F10 _ Final Candidate.pdf"
+ },
+ "appicon-small": {
+  "w": 2340,
+  "h": 1277,
+  "src": "S20-F08 _ Small Size.pdf"
+ },
+ "appicon-light": {
+  "w": 2340,
+  "h": 1128,
+  "src": "S20-F06 _ Light Background.pdf"
+ },
+ "appicon-dark": {
+  "w": 2340,
+  "h": 1959,
+  "src": "S20-F07 _ Dark Background.pdf"
+ }
+}

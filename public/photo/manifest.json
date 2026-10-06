@@ -1,0 +1,386 @@
+[
+ {
+  "file": "p19-1920x1731.webp",
+  "id": "P19",
+  "w": 1800,
+  "h": 1623,
+  "pages": [
+   "F01",
+   "F02",
+   "F04",
+   "F07",
+   "F10"
+  ],
+  "credit": {
+   "author": "Sardaka",
+   "license": "CC BY-SA 4.0"
+  },
+  "caption": "ARCHITECTURE / honest arrival"
+ },
+ {
+  "file": "p05-3264x2448.webp",
+  "id": "P05",
+  "w": 1800,
+  "h": 1350,
+  "pages": [
+   "F01",
+   "F04",
+   "F05",
+   "F10"
+  ],
+  "credit": {
+   "author": "Ji-Elle",
+   "license": "CC BY-SA 3.0"
+  },
+  "caption": "MATERIAL / Misfah timber door"
+ },
+ {
+  "file": "p05-2736x3648.webp",
+  "id": "P05",
+  "w": 1800,
+  "h": 2400,
+  "pages": [
+   "F01",
+   "F05",
+   "F10"
+  ],
+  "credit": {
+   "author": "Ji-Elle",
+   "license": "CC BY-SA 3.0"
+  },
+  "caption": "MATERIAL / Misfah timber door"
+ },
+ {
+  "file": "p13-2000x2000.webp",
+  "id": "P13",
+  "w": 1800,
+  "h": 1800,
+  "pages": [
+   "F01",
+   "F07"
+  ],
+  "credit": {
+   "author": "John Towner",
+   "license": "CC0"
+  },
+  "caption": "LIGHT / window and threshold"
+ },
+ {
+  "file": "p19-1920x1640.webp",
+  "id": "P19",
+  "w": 1800,
+  "h": 1538,
+  "pages": [
+   "F02",
+   "F04"
+  ],
+  "credit": {
+   "author": "Sardaka",
+   "license": "CC BY-SA 4.0"
+  },
+  "caption": "ARCHITECTURE / honest arrival"
+ },
+ {
+  "file": "p19-4416x3312.webp",
+  "id": "P19",
+  "w": 1800,
+  "h": 1350,
+  "pages": [
+   "F02",
+   "F05"
+  ],
+  "credit": {
+   "author": "Sardaka",
+   "license": "CC BY-SA 4.0"
+  },
+  "caption": "ARCHITECTURE / honest arrival"
+ },
+ {
+  "file": "p19-1920x1199.webp",
+  "id": "P19",
+  "w": 1800,
+  "h": 1124,
+  "pages": [
+   "F02"
+  ],
+  "credit": {
+   "author": "Sardaka",
+   "license": "CC BY-SA 4.0"
+  },
+  "caption": "ARCHITECTURE / honest arrival"
+ },
+ {
+  "file": "p20-1895x1272.webp",
+  "id": "P20",
+  "w": 1800,
+  "h": 1208,
+  "pages": [
+   "F02",
+   "F05"
+  ],
+  "credit": {
+   "author": "Paora",
+   "license": "CC0"
+  },
+  "caption": "Residential block / street continuity"
+ },
+ {
+  "file": "p23-1920x1385.webp",
+  "id": "P23",
+  "w": 1800,
+  "h": 1298,
+  "pages": [
+   "F02"
+  ],
+  "credit": {
+   "author": "DiscoA340",
+   "license": "CC BY-SA 4.0"
+  },
+  "caption": "Streetscape / brick urban edge, London"
+ },
+ {
+  "file": "p09-5346x3568.webp",
+  "id": "P09",
+  "w": 1800,
+  "h": 1201,
+  "pages": [
+   "F03",
+   "F07",
+   "F10"
+  ],
+  "credit": {
+   "author": "Jarosław Ceborski",
+   "license": "CC0"
+  },
+  "caption": "Living / timber and daylight"
+ },
+ {
+  "file": "p09-2000x1333.webp",
+  "id": "P09",
+  "w": 1800,
+  "h": 1200,
+  "pages": [
+   "F03"
+  ],
+  "credit": {
+   "author": "Jarosław Ceborski",
+   "license": "CC0"
+  },
+  "caption": "Living / timber and daylight"
+ },
+ {
+  "file": "p12-2000x1328.webp",
+  "id": "P12",
+  "w": 1800,
+  "h": 1195,
+  "pages": [
+   "F03",
+   "F10"
+  ],
+  "credit": {
+   "author": "Gabriel Beaudry",
+   "license": "CC0"
+  },
+  "caption": "Bedroom / uncluttered scale"
+ },
+ {
+  "file": "p09-2000x1333-2.webp",
+  "id": "P09",
+  "w": 1800,
+  "h": 1200,
+  "pages": [
+   "F03"
+  ],
+  "credit": {
+   "author": "Jarosław Ceborski",
+   "license": "CC0"
+  },
+  "caption": "Living / timber and daylight"
+ },
+ {
+  "file": "p12-1920x1434.webp",
+  "id": "P12",
+  "w": 1800,
+  "h": 1344,
+  "pages": [
+   "F03"
+  ],
+  "credit": {
+   "author": "Gabriel Beaudry",
+   "license": "CC0"
+  },
+  "caption": "Bedroom / uncluttered scale"
+ },
+ {
+  "file": "p16-3840x2560.webp",
+  "id": "P16",
+  "w": 1800,
+  "h": 1200,
+  "pages": [
+   "F03"
+  ],
+  "credit": {
+   "author": "Naomi Hébert",
+   "license": "CC0"
+  },
+  "caption": "Kitchen / practical materials"
+ },
+ {
+  "file": "p19-5184x3888.webp",
+  "id": "P19",
+  "w": 1800,
+  "h": 1350,
+  "pages": [
+   "F04",
+   "F05"
+  ],
+  "credit": {
+   "author": "Sardaka",
+   "license": "CC BY-SA 4.0"
+  },
+  "caption": "ARCHITECTURE / honest arrival"
+ },
+ {
+  "file": "p20-3016x2415.webp",
+  "id": "P20",
+  "w": 1800,
+  "h": 1441,
+  "pages": [
+   "F04",
+   "F05"
+  ],
+  "credit": {
+   "author": "Paora",
+   "license": "CC0"
+  },
+  "caption": "Residential block / street continuity"
+ },
+ {
+  "file": "p24-1920x2887.webp",
+  "id": "P24",
+  "w": 1800,
+  "h": 2707,
+  "pages": [
+   "F04",
+   "F06",
+   "F10"
+  ],
+  "credit": {
+   "author": "Jules Verne Times Two",
+   "license": "CC BY-SA 4.0"
+  },
+  "caption": "Context / everyday Stavanger street"
+ },
+ {
+  "file": "p08-3888x2592.webp",
+  "id": "P08",
+  "w": 1800,
+  "h": 1200,
+  "pages": [
+   "F05"
+  ],
+  "credit": {
+   "author": "Izeberg007",
+   "license": "CC0"
+  },
+  "caption": "Facade / Muttrah shade and depth"
+ },
+ {
+  "file": "p06-4000x3000.webp",
+  "id": "P06",
+  "w": 1800,
+  "h": 1350,
+  "pages": [
+   "F05"
+  ],
+  "credit": {
+   "author": "Omar AV",
+   "license": "CC BY 3.0"
+  },
+  "caption": "Muttrah / facade at night"
+ },
+ {
+  "file": "p25-1920x1440.webp",
+  "id": "P25",
+  "w": 1800,
+  "h": 1350,
+  "pages": [
+   "F06"
+  ],
+  "credit": {
+   "author": "Fons Heijnsbroek",
+   "license": "CC0"
+  },
+  "caption": "LIFE / walking to RAI, Amsterdam"
+ },
+ {
+  "file": "p25-1920x897.webp",
+  "id": "P25",
+  "w": 1800,
+  "h": 841,
+  "pages": [
+   "F06"
+  ],
+  "credit": {
+   "author": "Fons Heijnsbroek",
+   "license": "CC0"
+  },
+  "caption": "LIFE / walking to RAI, Amsterdam"
+ },
+ {
+  "file": "p25-1920x1440-2.webp",
+  "id": "P25",
+  "w": 1800,
+  "h": 1350,
+  "pages": [
+   "F06"
+  ],
+  "credit": {
+   "author": "Fons Heijnsbroek",
+   "license": "CC0"
+  },
+  "caption": "LIFE / walking to RAI, Amsterdam"
+ },
+ {
+  "file": "p27-2000x1333.webp",
+  "id": "P27",
+  "w": 1800,
+  "h": 1200,
+  "pages": [
+   "F06"
+  ],
+  "credit": {
+   "author": "Diliff",
+   "license": "CC BY 2.5"
+  },
+  "caption": "BELONGING / reading room, New York"
+ },
+ {
+  "file": "p09-2000x1333-3.webp",
+  "id": "P09",
+  "w": 1800,
+  "h": 1200,
+  "pages": [
+   "F07"
+  ],
+  "credit": {
+   "author": "Jarosław Ceborski",
+   "license": "CC0"
+  },
+  "caption": "Living / timber and daylight"
+ },
+ {
+  "file": "p19-2373x3160.webp",
+  "id": "P19",
+  "w": 1800,
+  "h": 2397,
+  "pages": [
+   "F07"
+  ],
+  "credit": {
+   "author": "Sardaka",
+   "license": "CC BY-SA 4.0"
+  },
+  "caption": "ARCHITECTURE / honest arrival"
+ }
+]

@@ -1,0 +1,192 @@
+{
+ "logo-master": {
+  "src": "01 — Master logo.pdf",
+  "w": 2448,
+  "h": 1377
+ },
+ "logo-anatomy": {
+  "src": "03 — Lockup anatomy.pdf",
+  "w": 2448,
+  "h": 1377
+ },
+ "logo-scale": {
+  "src": "06 — Scale preview.pdf",
+  "w": 2448,
+  "h": 1377
+ },
+ "logo-rule": {
+  "src": "08 — Logo control rule.pdf",
+  "w": 2448,
+  "h": 1377
+ },
+ "con-overview": {
+  "src": "01 — Construction overview.pdf",
+  "w": 2448,
+  "h": 1417
+ },
+ "con-symbol": {
+  "src": "02 — Symbol construction.pdf",
+  "w": 2448,
+  "h": 1417
+ },
+ "con-house": {
+  "src": "03 — House geometry.pdf",
+  "w": 2448,
+  "h": 1417
+ },
+ "con-wave": {
+  "src": "04 — Wave geometry.pdf",
+  "w": 2448,
+  "h": 1417
+ },
+ "con-negative": {
+  "src": "05 — Negative space.pdf",
+  "w": 2448,
+  "h": 1417
+ },
+ "con-proportion": {
+  "src": "06 — Symbol proportion.pdf",
+  "w": 2448,
+  "h": 1417
+ },
+ "con-alignment": {
+  "src": "07 — Lockup alignment.pdf",
+  "w": 2448,
+  "h": 1417
+ },
+ "con-wordmark": {
+  "src": "08 — Wordmark relationship.pdf",
+  "w": 2448,
+  "h": 1417
+ },
+ "con-grid": {
+  "src": "10 — Construction grid.pdf",
+  "w": 2448,
+  "h": 1417
+ },
+ "cs-overview": {
+  "src": "01 — Clear space overview.pdf",
+  "w": 2448,
+  "h": 1418
+ },
+ "cs-unit": {
+  "src": "02 — Clear space unit.pdf",
+  "w": 2448,
+  "h": 1418
+ },
+ "cs-protected": {
+  "src": "03 — Minimum protected area.pdf",
+  "w": 2448,
+  "h": 1418
+ },
+ "cs-lockup": {
+  "src": "04 — Primary lockup clear space.pdf",
+  "w": 2448,
+  "h": 1418
+ },
+ "cs-symbol": {
+  "src": "05 — Symbol clear space.pdf",
+  "w": 2448,
+  "h": 1418
+ },
+ "cs-context": {
+  "src": "06 — Clear space context test.pdf",
+  "w": 2448,
+  "h": 1418
+ },
+ "cs-crowded": {
+  "src": "07 — Protected versus crowded.pdf",
+  "w": 2448,
+  "h": 1418
+ },
+ "cs-incorrect": {
+  "src": "09 — Incorrect clear space.pdf",
+  "w": 2430,
+  "h": 1515
+ },
+ "ms-overview": {
+  "src": "01 — AQARATI — MINIMUM SIZE.pdf",
+  "w": 2430,
+  "h": 1245
+ },
+ "ms-full": {
+  "src": "02 — FULL LOCKUP — SIZE TEST.pdf",
+  "w": 2448,
+  "h": 1418
+ },
+ "ms-legibility": {
+  "src": "03 — LEGIBILITY TEST.pdf",
+  "w": 2430,
+  "h": 1650
+ },
+ "ms-symbol": {
+  "src": "07 — SYMBOL-ONLY — SIZE TEST.pdf",
+  "w": 2448,
+  "h": 1418
+ },
+ "ms-zones": {
+  "src": "12 — PRACTICAL SIZE ZONES.pdf",
+  "w": 2430,
+  "h": 1650
+ },
+ "ms-proposed": {
+  "src": "13 — PROPOSED MINIMUM SIZE.pdf",
+  "w": 2448,
+  "h": 1418
+ },
+ "var-overview": {
+  "src": "01 — Variants overview.pdf",
+  "w": 2430,
+  "h": 1650
+ },
+ "var-primary": {
+  "src": "02 — Primary full lockup.pdf",
+  "w": 2430,
+  "h": 1245
+ },
+ "var-compact": {
+  "src": "03 — Compact lockup.pdf",
+  "w": 2430,
+  "h": 1245
+ },
+ "var-symbol": {
+  "src": "04 — Symbol only.pdf",
+  "w": 2430,
+  "h": 1245
+ },
+ "var-horizontal": {
+  "src": "05 — Horizontal lockup.pdf",
+  "w": 2430,
+  "h": 1245
+ },
+ "var-stacked": {
+  "src": "06 — Stacked reference.pdf",
+  "w": 2430,
+  "h": 1245
+ },
+ "var-mono": {
+  "src": "07 — Monochrome study.pdf",
+  "w": 2430,
+  "h": 1245
+ },
+ "var-reverse": {
+  "src": "08 — Reverse contrast study.pdf",
+  "w": 2430,
+  "h": 1245
+ },
+ "var-light": {
+  "src": "09 — Light surface reference.pdf",
+  "w": 2430,
+  "h": 1245
+ },
+ "var-dark": {
+  "src": "10 — Dark surface study.pdf",
+  "w": 2430,
+  "h": 1245
+ },
+ "var-compare": {
+  "src": "12 — Variant comparison.pdf",
+  "w": 3240,
+  "h": 1237
+ }
+}

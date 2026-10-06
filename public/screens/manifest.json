@@ -1,0 +1,290 @@
+[
+ {
+  "file": "s18-f01-0.webp",
+  "src": "S18-F01 _ LIGHT THEME OVERVIEW.pdf",
+  "rect": [
+   183,
+   223,
+   615,
+   1225
+  ],
+  "w": 864,
+  "h": 2004
+ },
+ {
+  "file": "s18-f02-0.webp",
+  "src": "S18-F02 _ HOME.pdf",
+  "rect": [
+   63,
+   223,
+   495,
+   1225
+  ],
+  "w": 864,
+  "h": 2004
+ },
+ {
+  "file": "s18-f02-1.webp",
+  "src": "S18-F02 _ HOME.pdf",
+  "rect": [
+   577,
+   223,
+   1009,
+   1225
+  ],
+  "w": 864,
+  "h": 2004
+ },
+ {
+  "file": "s18-f03-0.webp",
+  "src": "S18-F03 _ PROPERTY DISCOVERY.pdf",
+  "rect": [
+   63,
+   223,
+   495,
+   1225
+  ],
+  "w": 864,
+  "h": 2004
+ },
+ {
+  "file": "s18-f03-1.webp",
+  "src": "S18-F03 _ PROPERTY DISCOVERY.pdf",
+  "rect": [
+   577,
+   223,
+   1009,
+   1225
+  ],
+  "w": 864,
+  "h": 2004
+ },
+ {
+  "file": "s18-f03-2.webp",
+  "src": "S18-F03 _ PROPERTY DISCOVERY.pdf",
+  "rect": [
+   1103,
+   223,
+   1535,
+   1225
+  ],
+  "w": 864,
+  "h": 2004
+ },
+ {
+  "file": "s18-f03-3.webp",
+  "src": "S18-F03 _ PROPERTY DISCOVERY.pdf",
+  "rect": [
+   1104,
+   329,
+   1534,
+   1224
+  ],
+  "w": 860,
+  "h": 1790
+ },
+ {
+  "file": "s18-f04-0.webp",
+  "src": "S18-F04 _ PROPERTY DETAIL.pdf",
+  "rect": [
+   63,
+   223,
+   495,
+   1225
+  ],
+  "w": 864,
+  "h": 2004
+ },
+ {
+  "file": "s18-f04-1.webp",
+  "src": "S18-F04 _ PROPERTY DETAIL.pdf",
+  "rect": [
+   577,
+   223,
+   1009,
+   1225
+  ],
+  "w": 864,
+  "h": 2004
+ },
+ {
+  "file": "s18-f05-0.webp",
+  "src": "S18-F05 _ PROFESSIONAL PROFILE.pdf",
+  "rect": [
+   63,
+   223,
+   495,
+   1225
+  ],
+  "w": 864,
+  "h": 2004
+ },
+ {
+  "file": "s18-f05-1.webp",
+  "src": "S18-F05 _ PROFESSIONAL PROFILE.pdf",
+  "rect": [
+   577,
+   223,
+   1009,
+   1225
+  ],
+  "w": 864,
+  "h": 2004
+ },
+ {
+  "file": "s18-f06-0.webp",
+  "src": "S18-F06 _ VERIFICATION.pdf",
+  "rect": [
+   63,
+   223,
+   495,
+   1225
+  ],
+  "w": 864,
+  "h": 2004
+ },
+ {
+  "file": "s18-f07-0.webp",
+  "src": "S18-F07 _ FORMS.pdf",
+  "rect": [
+   63,
+   223,
+   495,
+   1225
+  ],
+  "w": 864,
+  "h": 2004
+ },
+ {
+  "file": "s18-f07-1.webp",
+  "src": "S18-F07 _ FORMS.pdf",
+  "rect": [
+   577,
+   223,
+   1009,
+   1225
+  ],
+  "w": 864,
+  "h": 2004
+ },
+ {
+  "file": "s18-f08-0.webp",
+  "src": "S18-F08 _ NAVIGATION.pdf",
+  "rect": [
+   63,
+   223,
+   495,
+   1225
+  ],
+  "w": 864,
+  "h": 2004
+ },
+ {
+  "file": "s18-f09-0.webp",
+  "src": "S18-F09 _ COMPONENTS.pdf",
+  "rect": [
+   1195,
+   1760,
+   1627,
+   2762
+  ],
+  "w": 864,
+  "h": 2004
+ },
+ {
+  "file": "s18-f09-1.webp",
+  "src": "S18-F09 _ COMPONENTS.pdf",
+  "rect": [
+   1196,
+   1677,
+   1706,
+   2761
+  ],
+  "w": 1020,
+  "h": 2168
+ },
+ {
+  "file": "s18-f10-0.webp",
+  "src": "S18-F10 _ TOKEN MAP.pdf",
+  "rect": [
+   63,
+   223,
+   495,
+   1225
+  ],
+  "w": 864,
+  "h": 2004
+ },
+ {
+  "file": "s19-f01-0.webp",
+  "src": "S19-F01 _ Dark Theme Overview.pdf",
+  "rect": [
+   63,
+   255,
+   545,
+   1400
+  ],
+  "w": 964,
+  "h": 2290
+ },
+ {
+  "file": "s19-f02-0.webp",
+  "src": "S19-F02 _ Home.pdf",
+  "rect": [
+   63,
+   255,
+   545,
+   1400
+  ],
+  "w": 964,
+  "h": 2290
+ },
+ {
+  "file": "s19-f03-0.webp",
+  "src": "S19-F03 _ Property Discovery.pdf",
+  "rect": [
+   63,
+   255,
+   545,
+   1410
+  ],
+  "w": 964,
+  "h": 2310
+ },
+ {
+  "file": "s19-f04-0.webp",
+  "src": "S19-F04 _ Property Detail.pdf",
+  "rect": [
+   63,
+   255,
+   545,
+   1311
+  ],
+  "w": 964,
+  "h": 2112
+ },
+ {
+  "file": "s19-f05-0.webp",
+  "src": "S19-F05 _ Professional Profile.pdf",
+  "rect": [
+   63,
+   255,
+   545,
+   1383
+  ],
+  "w": 964,
+  "h": 2256
+ },
+ {
+  "file": "s19-f07-0.webp",
+  "src": "S19-F07 _ Forms.pdf",
+  "rect": [
+   63,
+   255,
+   545,
+   1233
+  ],
+  "w": 964,
+  "h": 1956
+ }
+]

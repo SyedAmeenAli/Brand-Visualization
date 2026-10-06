@@ -1,0 +1,114 @@
+/*
+ * AQARATI design tokens.
+ * Source: Figma "Final-Aqarati" Brand Foundation (steps 08 colour, 09 UI colour, 10 type, 14 spacing, 15 radius, 16 elevation, 17 motion).
+ * Brand colours (Mocha #825C3F, Ivory #ECE3D7, Deep Mocha #674830) are measured from the master artwork.
+ * Supporting neutrals, semantic colours, type, spacing, radius, elevation and motion are marked PROPOSED in Figma; values are copied exactly.
+ * Colours are stored as space-separated RGB so Tailwind can apply alpha.
+ */
+:root {
+  /* light theme semantic (Figma S09-F11) */
+  --bg: 247 244 239;           /* background/primary   #F7F4EF */
+  --bg-2: 236 227 215;         /* background/secondary #ECE3D7 */
+  --surface: 255 255 255;      /* surface/primary      #FFFFFF */
+  --elevated: 255 255 255;     /* surface/elevated     #FFFFFF */
+  --text: 45 40 35;            /* text/primary         #2D2823 */
+  --text-2: 101 92 82;         /* text/secondary       #655C52 */
+  --text-3: 129 119 108;       /* text/tertiary        #81776C */
+  --border: 201 191 178;       /* border/default       #C9BFB2 */
+  --border-soft: 225 218 208;  /* border/subtle        #E1DAD0 */
+  --brand: 130 92 63;          /* brand/primary / Mocha #825C3F */
+  --brand-deep: 103 72 48;     /* Deep Mocha #674830 */
+  --ivory: 236 227 215;        /* Ivory #ECE3D7 */
+  --accent: 103 72 48;         /* mocha used as text: Deep Mocha on light surfaces */
+  --success: 62 110 81;        /* #3E6E51 */
+  --warning: 149 102 32;       /* #956620 */
+  --error: 160 68 63;          /* #A0443F */
+  --info: 79 105 128;          /* #4F6980 */
+  --disabled: 166 158 148;     /* #A69E94 */
+
+  /* logo colouring (master mocha) */
+  --logo-a: 130 92 63;
+  --logo-b: 103 72 48;
+  --logo-c: 127 88 60;
+  --logo-k: 247 244 239;
+
+  /* glass material (navigation only) */
+  --glass-tint: 247 244 239;
+  --glass-alpha: 0.58;
+  --glass-border: 255 255 255;
+  --glass-edge: 0.55;
+
+  /* spacing (Figma S14-F10, 4px base) */
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-5: 20px; --space-6: 24px;
+  --space-7: 32px; --space-8: 40px; --space-9: 48px; --space-10: 64px; --space-11: 80px;
+
+  /* radius (Figma S15) */
+  --radius-none: 0px; --radius-sm: 4px; --radius-md: 8px; --radius-lg: 12px; --radius-xl: 16px; --radius-xxl: 20px; --radius-hero: 24px;
+
+  /* elevation (Figma S16-F10, PROPOSED) */
+  --elev-0: none;
+  --elev-1: 0 2px 8px 0 rgb(45 40 35 / 0.06);
+  --elev-2: 0 6px 20px 0 rgb(45 40 35 / 0.09);
+  --elev-3: 0 12px 32px 0 rgb(45 40 35 / 0.12);
+
+  /* motion (Figma S17-F02/F03, PROPOSED) */
+  --motion-fast: 120ms; --motion-standard: 220ms; --motion-emphasis: 360ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-enter: cubic-bezier(0, 0, 0.58, 1);
+  --ease-exit: cubic-bezier(0.42, 0, 1, 1);
+  --ease-emphasis: cubic-bezier(0.42, 0, 0.58, 1);
+
+  /* layout */
+  --gutter: clamp(20px, 5vw, 80px);
+  --maxw: 1560px;
+}
+
+/* dark theme (Figma S09-F12). Not an inversion: deep warm neutral surfaces, warm ivory text. */
+:root[data-theme='dark'],
+[data-band='dark'] {
+  --bg: 33 30 27;              /* #211E1B */
+  --bg-2: 43 38 34;            /* #2B2622 */
+  --surface: 48 43 38;         /* #302B26 */
+  --elevated: 58 51 45;        /* #3A332D */
+  --text: 244 238 230;         /* #F4EEE6 */
+  --text-2: 200 188 173;       /* #C8BCAD */
+  --text-3: 169 156 140;       /* #A99C8C */
+  --border: 97 85 72;          /* #615548 */
+  --border-soft: 68 59 50;     /* #443B32 */
+  --success: 164 198 173;      /* #A4C6AD */
+  --warning: 216 182 124;      /* #D8B67C */
+  --error: 224 170 164;        /* #E0AAA4 */
+  --info: 164 189 209;         /* #A4BDD1 */
+  --disabled: 120 108 96;      /* #786C60 */
+  --accent: 200 188 173;       /* mocha is a fill, never body text on dark: use text/secondary */
+  --logo-a: 244 238 230;       /* reverse: warm ivory contours */
+  --logo-b: 244 238 230;
+  --logo-c: 244 238 230;
+  --logo-k: 33 30 27;
+  --glass-tint: 33 30 27;
+  --glass-alpha: 0.5;
+  --glass-border: 255 240 220;
+  --glass-edge: 0.16;
+  --elev-1: 0 2px 8px 0 rgb(0 0 0 / 0.24);
+  --elev-2: 0 6px 20px 0 rgb(0 0 0 / 0.3);
+  --elev-3: 0 12px 32px 0 rgb(0 0 0 / 0.36);
+}
+
+/* Figma ivory presentation surface, used as a band in light mode */
+[data-band='ivory'] {
+  --bg: 236 227 215;
+  --logo-k: 236 227 215;
+}
+:root[data-theme='dark'] [data-band='ivory'] {
+  --bg: 43 38 34;
+  --logo-k: 43 38 34;
+}
+
+/* forced light surface, used inside dark sections for side-by-side theme previews (values: Figma S09-F11) */
+[data-force='light'] {
+  --bg: 247 244 239; --bg-2: 236 227 215; --surface: 255 255 255; --elevated: 255 255 255;
+  --text: 45 40 35; --text-2: 101 92 82; --text-3: 129 119 108; --border: 201 191 178; --border-soft: 225 218 208; --accent: 103 72 48;
+  --success: 62 110 81; --warning: 149 102 32; --error: 160 68 63; --info: 79 105 128; --disabled: 166 158 148;
+  --logo-a: 130 92 63; --logo-b: 103 72 48; --logo-c: 127 88 60; --logo-k: 247 244 239;
+  --elev-1: 0 2px 8px 0 rgb(45 40 35 / 0.06); --elev-2: 0 6px 20px 0 rgb(45 40 35 / 0.09); --elev-3: 0 12px 32px 0 rgb(45 40 35 / 0.12);
+}

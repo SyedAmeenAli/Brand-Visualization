@@ -1,0 +1,62 @@
+{
+ "icons-nav": {
+  "src": "S12-F05 _ Core Navigation Icons.pdf",
+  "w": 2340,
+  "h": 1560
+ },
+ "icons-property": {
+  "src": "S12-F06 _ Property Icons.pdf",
+  "w": 2340,
+  "h": 1716
+ },
+ "icons-verify": {
+  "src": "S12-F07 _ Verification Icons.pdf",
+  "w": 2340,
+  "h": 1781
+ },
+ "icons-sizes": {
+  "src": "S12-F04 _ Sizes.pdf",
+  "w": 2340,
+  "h": 1482
+ },
+ "illus-property": {
+  "src": "S13-F04 _ Property Illustration.pdf",
+  "w": 2340,
+  "h": 2491
+ },
+ "illus-empty": {
+  "src": "S13-F05 _ Empty States.pdf",
+  "w": 2340,
+  "h": 1984
+ },
+ "illus-verify": {
+  "src": "S13-F07 _ Verification.pdf",
+  "w": 2340,
+  "h": 1826
+ },
+ "illus-service": {
+  "src": "S13-F08 _ Service Categories.pdf",
+  "w": 2340,
+  "h": 2491
+ },
+ "appicon-final": {
+  "src": "S20-F10 _ Final Candidate.pdf",
+  "w": 2340,
+  "h": 1428
+ },
+ "appicon-small": {
+  "src": "S20-F08 _ Small Size.pdf",
+  "w": 2340,
+  "h": 1277
+ },
+ "appicon-light": {
+  "src": "S20-F06 _ Light Background.pdf",
+  "w": 2340,
+  "h": 1128
+ },
+ "appicon-dark": {
+  "src": "S20-F07 _ Dark Background.pdf",
+  "w": 2340,
+  "h": 1959
+ }
+}

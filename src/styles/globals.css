@@ -1,0 +1,103 @@
+@import './tokens.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body {
+    background: rgb(var(--bg));
+    color: rgb(var(--text));
+    font-family: var(--font-sans), system-ui, sans-serif;
+    font-size: 16px; line-height: 24px;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: clip;
+  }
+  html[dir='rtl'] body { font-family: var(--font-arabic), var(--font-sans), system-ui, sans-serif; }
+  html[dir='rtl'] .font-display, html[dir='rtl'] [class*='t-display'], html[dir='rtl'] .t-h1, html[dir='rtl'] .t-h2 {
+    font-family: var(--font-arabic), serif; letter-spacing: 0;
+  }
+  ::selection { background: rgb(var(--brand) / 0.28); }
+  :focus-visible { outline: 2px solid rgb(var(--brand)); outline-offset: 3px; border-radius: 4px; }
+  [data-band='dark'] :focus-visible, html[data-theme='dark'] :focus-visible { outline-color: rgb(var(--text)); }
+  img { -webkit-user-drag: none; }
+  /* grid items must be allowed to shrink, so scroll strips never widen the page */
+  .grid > *, .flex > * { min-width: 0; }
+}
+
+/* Type scale: web presentation of the Figma S10-F10 roles. Display roles are tuned down for screen reading; the exact Figma values are shown in the Typography specimen. */
+@layer components {
+  .t-display-lg { font-family: var(--font-display); font-weight: 400; font-size: clamp(34px, 4.6vw, 58px); line-height: 1.12; letter-spacing: -0.01em; }
+  .t-display { font-family: var(--font-display); font-weight: 400; font-size: clamp(30px, 3.8vw, 46px); line-height: 1.15; letter-spacing: -0.01em; }
+  .t-h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(24px, 2.7vw, 34px); line-height: 1.2; }
+  .t-h2 { font-family: var(--font-display); font-weight: 600; font-size: clamp(19px, 1.9vw, 24px); line-height: 1.3; }
+  .t-h3 { font-weight: 600; font-size: 20px; line-height: 28px; }
+  .t-h4 { font-weight: 600; font-size: 20px; line-height: 28px; }
+  .t-body-lg { font-size: 17px; line-height: 28px; }
+  .t-body { font-size: 16px; line-height: 24px; }
+  .t-body-sm { font-size: 14px; line-height: 20px; }
+  .t-label-lg { font-weight: 500; font-size: 16px; line-height: 24px; }
+  .t-label { font-weight: 500; font-size: 14px; line-height: 20px; }
+  .t-caption { font-size: 12px; line-height: 18px; }
+  .t-eyebrow { font-weight: 500; font-size: 12px; line-height: 18px; letter-spacing: 0.14em; text-transform: uppercase; }
+  html[dir='rtl'] .t-eyebrow { letter-spacing: 0; text-transform: none; font-size: 13px; }
+
+  .container-x { width: 100%; max-width: var(--maxw); margin-inline: auto; padding-inline: var(--gutter); }
+  .hairline { height: 1px; background: rgb(var(--border-soft)); }
+
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 0 24px;
+    border-radius: var(--radius-lg); font-weight: 600; font-size: 14px;
+    transition: transform var(--motion-fast) var(--ease-standard), background-color var(--motion-fast) var(--ease-standard), box-shadow var(--motion-standard) var(--ease-standard);
+  }
+  .btn:hover { transform: translateY(-1px); box-shadow: var(--elev-1); }
+  .btn:active { transform: scale(0.97); box-shadow: none; }
+  .btn-brand { background: rgb(var(--brand)); color: #fff; }
+  .btn-ghost { border: 1px solid rgb(var(--border)); color: rgb(var(--text)); }
+
+  .chip {
+    display: inline-flex; align-items: center; min-height: 40px; padding: 0 14px; border-radius: var(--radius-md);
+    border: 1px solid rgb(var(--border)); font-size: 13px; font-weight: 500; color: rgb(var(--text-2));
+    transition: background-color var(--motion-fast) var(--ease-standard), color var(--motion-fast) var(--ease-standard), border-color var(--motion-fast) var(--ease-standard);
+  }
+  .chip:hover { border-color: rgb(var(--brand)); color: rgb(var(--text)); }
+  .chip[aria-pressed='true'], .chip[aria-selected='true'] { background: rgb(var(--brand)); border-color: rgb(var(--brand)); color: #fff; }
+
+  /* logo svg colouring through tokens */
+  .logo .a { fill: rgb(var(--logo-a)); }
+  .logo .b { fill: rgb(var(--logo-b)); }
+  .logo .c { fill: rgb(var(--logo-c)); }
+  .logo .k { fill: rgb(var(--logo-k)); }
+  .logo[data-tone='mono'] .a, .logo[data-tone='mono'] .b, .logo[data-tone='mono'] .c { fill: currentColor; }
+  .logo[data-tone='mocha'] { --logo-a: 130 92 63; --logo-b: 103 72 48; --logo-c: 127 88 60; }
+  .logo[data-tone='reverse'] { --logo-a: 244 238 230; --logo-b: 244 238 230; --logo-c: 244 238 230; }
+
+  /* glass material: floating navigation only */
+  .glass {
+    background: rgb(var(--glass-tint) / var(--glass-alpha));
+    -webkit-backdrop-filter: blur(22px) saturate(1.5);
+    backdrop-filter: blur(22px) saturate(1.5);
+    border: 1px solid rgb(var(--glass-border) / var(--glass-edge));
+    box-shadow: var(--elev-2), inset 0 1px 0 rgb(255 255 255 / 0.35);
+  }
+  @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+    .glass { background: rgb(var(--glass-tint) / 0.94); }
+  }
+
+  .tyart-mid { display: none; }
+  @container (min-width: 560px) { .tyart-mid { display: block; } }
+
+  .no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+}
+
+html.theme-anim body, html.theme-anim section, html.theme-anim header, html.theme-anim footer, html.theme-anim nav, html.theme-anim div, html.theme-anim span, html.theme-anim p, html.theme-anim h1, html.theme-anim h2, html.theme-anim h3, html.theme-anim button, html.theme-anim svg path {
+  transition: background-color var(--motion-emphasis) var(--ease-standard), color var(--motion-emphasis) var(--ease-standard), border-color var(--motion-emphasis) var(--ease-standard), fill var(--motion-emphasis) var(--ease-standard);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}
+
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
